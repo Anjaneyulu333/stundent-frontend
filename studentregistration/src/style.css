@@ -1,0 +1,35 @@
+/* Title Styling with Gradient */
+.title-container {
+    background: linear-gradient(90deg, #007bff, #6610f2);
+    border-radius: 10px;
+  }
+  
+  /* Custom Navbar Styling */
+  .custom-navbar {
+    background-color: #343a40;  /* Dark Gray */
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Navbar Link Styling */
+  .custom-navbar .nav-link {
+    color: white !important;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  /* Navbar Link Hover Effect */
+  .custom-navbar .nav-link:hover {
+    background-color: #007bff; /* Blue */
+    color: white !important;
+  }
+  
+  /* Navbar Link Active */
+  .custom-navbar .nav-link:focus {
+    background-color: #6610f2; /* Purple */
+    color: white !important;
+  }
+  
